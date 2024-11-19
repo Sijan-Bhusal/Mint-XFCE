@@ -103,19 +103,22 @@ sudo apt install -y ani-cli
 #ranger
 sudo apt install
 
-#sudo
-
-
 ```
 
 ## Useful Links
 
-**1.Gruvbox Gtk Theme**: `https://www.gnome-look.org/p/1681313`
+**1. Gruvbox Gtk Theme**: `https://www.gnome-look.org/p/1681313`
 
-**2.Gruvbox Plus Icon**: `https://www.gnome-look.org/p/1961046`
+**2. Gruvbox Plus Icon**: `https://www.gnome-look.org/p/1961046`
 
-**3.Gruvbox Cursor**: `https://www.gnome-look.org/p/1818760`
+**3. Gruvbox Cursor**: `https://www.gnome-look.org/p/1818760`
 
-**4.Visual Code**: `https://code.visualstudio.com/download#`
+**4. Visual Code**: `https://code.visualstudio.com/download#`
 
-**4.Harmony Music**: `https://github.com/anandnet/Harmony-Music/releases/download/v1.10.31/harmonymusicv1.10.31.deb`
+**5. Harmony Music**: `https://github.com/anandnet/Harmony-Music/releases/download/v1.10.31/harmonymusicv1.10.31.deb`
+
+## Acknowledgements/Credits:
+
+- cp0w
+- shub
+- Chick2D
