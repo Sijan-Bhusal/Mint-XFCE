@@ -115,6 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#Loading most recently selected theme automatically
 if command -v theme.sh > /dev/null; then
 	[ -e ~/.theme_history ] && theme.sh "$(theme.sh -l|tail -n1)"
 
@@ -132,20 +134,32 @@ if command -v theme.sh > /dev/null; then
 	alias thd='theme.sh --dark -i'
 fi
 
+
+#Oh my Posh Part
 eval "$(oh-my-posh init bash --config ~/Downloads/.poshthemes/robbyrussell.omp.json)"
+
+#Loads neofetch at bash startup
  neofetch
 
+
+#Atuin Search
 . "$HOME/.atuin/bin/env"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
 
+
+#For Homebrew for cleanup
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export HOMEBREW_NO_INSTALL_CLEANUP=TRUE
 export HOMEBREW_NO_ENV_HINTS=TRUE
 
+
+#This is nvm and npm package manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH=$PATH:/home/sijan/.spicetify
+
+#Useful for changing directory just by typing initial name (e.g z Dow -> means Download directory)
+eval "$(zoxide init bash)"
