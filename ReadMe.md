@@ -111,31 +111,11 @@ sudo apt install
 ## Useful Links
 
 **1.Gruvbox Gtk Theme**: `https://www.gnome-look.org/p/1681313`
+
 **2.Gruvbox Plus Icon**: `https://www.gnome-look.org/p/1961046`
+
 **3.Gruvbox Cursor**: `https://www.gnome-look.org/p/1818760`
+
 **4.Visual Code**: `https://code.visualstudio.com/download#`
+
 **4.Harmony Music**: `https://github.com/anandnet/Harmony-Music/releases/download/v1.10.31/harmonymusicv1.10.31.deb`
-
-## Deployment
-
-Additional notes on how to deploy this on a live or release system. Explaining the most important branches, what pipelines they trigger and how to update the database (if anything special).
-
-### Server
-
-- Live:
-- Release:
-- Development:
-
-### Branches
-
-- Master:
-- Feature:
-- Bugfix:
-- etc...
-
-## Additional Documentation and Acknowledgments
-
-- Project folder on server:
-- Confluence link:
-- Asana board:
-- etc...
