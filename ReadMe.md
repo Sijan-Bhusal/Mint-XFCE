@@ -75,10 +75,9 @@ A step by step guide that will tell you how to get the development environment u
 
 ```bash
 # Clone this repository
- git clone https://github.com/Sijan-Bhusal/dotfiles.git
-
+ git clone https://github.com/Sijan-Bhusal/xfce-customization.git
 # Go into the repository
- cd dotfiles
+ cd xfce-customization
 
 # Run mint-install.sh
 chmod +x mint-install.sh
