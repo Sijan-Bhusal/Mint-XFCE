@@ -10,7 +10,7 @@ All the dot-files can be copied into the system after the installation.
 
 First of all open the _mint-install.sh_ file and then copy all the required commands or you can also edit those and run the scripts.
 
-### Prerequisites
+### Post Installation Commands
 
 ```bash
 # Sudo without password (optional)
