@@ -1,6 +1,0 @@
- Network Manager CLI / TUI
-nmcli device wifi show-password cannot live without it anymore, even shows you a QR code in terminal
-nmcli device wifi finds all SSIDs, even hidden ones
-nmcli radio wifi [on|off] and in general for other devices (bluetooth, wwan, etc).
-
-nmtui is your best friend if you prefere a "terminal user interface"! 
