@@ -102,6 +102,10 @@ sudo apt install -y ani-cli
 #ranger
 sudo apt install
 
+#Installing Vscode extensions
+sudo chmod +x ~/dotfiles/.config/code/extensions.sh
+./extensions.sh
+
 ```
 
 ## Useful Links
@@ -118,6 +122,7 @@ sudo apt install
 
 ## Acknowledgements/Credits:
 
-- cp0w
-- shub
-- Chick2D
+- [cp0w](https://github.com/cpow/cpow-dotfiles)
+- [shub](https://github.com/diws1/xfce-rice/tree/main)
+- [Chick2D](https://github.com/Chick2D/neofetch-themes)
+- [diws1](https://github.com/diws1/xfce-rice/tree/main)
