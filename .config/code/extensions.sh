@@ -1,0 +1,13 @@
+code --install-extension ecmel.vscode-html-css
+code --install-extension esbenp.prettier-vscode
+code --install-extension eseom.nunjucks-template
+code --install-extension formulahendry.code-runner
+code --install-extension golf1052.code-sync
+code --install-extension jdinhlife.gruvbox
+code --install-extension jonathanharty.gruvbox-material-icon-theme
+code --install-extension kevinrose.vsc-python-indent
+code --install-extension ms-python.python
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.live-server
+code --install-extension rafamel.subtle-brackets
+code --install-extension ritwickdey.liveserver
