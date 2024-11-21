@@ -10,6 +10,20 @@ All the dot-files can be copied into the system after the installation.
 
 First of all open the _mint-install.sh_ file and then copy all the required commands or you can also edit those and run the scripts.
 
+```bash
+# Clone this repository
+ git clone https://github.com/Sijan-Bhusal/xfce-customization.git
+# Go into the repository
+ cd xfce-customization
+
+# Run mint-install.sh
+chmod +x mint-install.sh
+
+# Run the script
+./mint-install.sh
+```
+**Note**: After that you copy all the configs file into your config folder ~/.config. And also copy all other wallpapers and important files.
+
 ### Post Installation Commands
 
 ```bash
@@ -68,25 +82,6 @@ theme.sh -i #then run this command to change theme
 vi sudo
 Defaults insults  #Add this command in sudo file
 ```
-
-### Installation
-
-A step by step guide that will tell you how to get the development environment up and running.
-
-```bash
-# Clone this repository
- git clone https://github.com/Sijan-Bhusal/xfce-customization.git
-# Go into the repository
- cd xfce-customization
-
-# Run mint-install.sh
-chmod +x mint-install.sh
-
-# Run the script
-./mint-install.sh
-```
-
-**Note**: After that you copy all the configs file into your config folder ~/.config. And also copy all other wallpapers and important files.
 
 ## Useful CLI-TOOLS
 
