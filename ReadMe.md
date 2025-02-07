@@ -1,4 +1,4 @@
-# Linux-Mint Post Installation
+# My Mint XFCE Setup
 
 All the dot-files can be copied into the system after the installation.
 
@@ -7,8 +7,6 @@ All the dot-files can be copied into the system after the installation.
 ![alt text](Wallpapers/Screenshot_2024-11-16_20-01-50.png)
 
 ## Getting Started
-
-First of all open the _mint-install.sh_ file and then copy all the required commands or you can also edit those and run the scripts.
 
 ```bash
 # Clone this repository
@@ -21,66 +19,6 @@ chmod +x mint-install.sh
 
 # Run the script
 ./mint-install.sh
-```
-**Note**: After that you copy all the configs file into your config folder ~/.config. And also copy all other wallpapers and important files.
-
-### Post Installation Commands
-
-```bash
-# Sudo without password (optional)
-
-sudo visudo
-
-username ALL=(ALL) NOPASSWD: ALL  #paste into visudo
-
-# Get the latest updates
-sudo apt update && sudo apt -y upgrade
-
-#Nala- a GUI package manager - alt of (apt)
-sudo apt install -y nala btop neofetch ffmpeg
-
-#Redshift install
-sudo apt install -y redshift redshift-gtk
-
-# Multimedia codecs
-sudo apt install -y ubuntu-restricted-extras
-
-# Rar and other archiving utilities
-sudo apt install -y unace p7zip-rar sharutils rar arj lunzip lzip gdebi
-
-# Clipboard manager, Stacer VLC Cmus(music player) ddgr(google search)
-sudo apt install -y diodon stacer mpv cmus ddgr
-
-# QBittorrent Client
-sudo apt install -y qbittorrent
-
-# Microsoft font (optional)
-sudo apt install -y ttf-mscorefonts-installer
-
-# Install useful packages
-sudo apt install -y curl aria2 jq make gcc git neovim fzf sed
-
-#Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
- #Customize terminal with Oh my Posh
-curl -s https://ohmyposh.dev/install.sh | bash -s
-
-eval "$(oh-my-posh init bash --config ~/Downloads/dotfiles/.config/.poshthemes/robbyrussell.omp.json)"
-
-#Tips for installing any font
-sudo mkdir ~/.fonts && sudo mv font.ttf ~/.fonts
-
-fc-cache
-
-#Change Terminal Looks
-sudo curl -Lo /usr/bin/theme.sh 'https://git.io/JM70M' && sudo chmod +x /usr/bin/theme.sh
-
-theme.sh -i #then run this command to change theme
-
-#sudo-insults
-vi sudo
-Defaults insults  #Add this command in sudo file
 ```
 
 ## Useful CLI-TOOLS
